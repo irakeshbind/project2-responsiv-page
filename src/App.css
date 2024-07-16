@@ -6,7 +6,8 @@ body{
 nav{
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
+  font-size: 20px;
+  font-weight: 500;
   margin: 0 auto;
   height: 72px;
 
@@ -16,6 +17,10 @@ nav ul{
   list-style: none;
   gap: 24px ;
 }
+.container{
+         margin: 0 auto;
+         max-width: 1280px;
+}
 .btn{
   all: unset;
   background-color: red;
@@ -23,4 +28,58 @@ nav ul{
   height: 32px;
   color: white;
   font-weight: 500;
+}
+.hero{
+    display: flex;
+    gap: 30px;
+}
+.hero-content h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+.hero-content p{
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 500;
+}
+.p-text p{
+  font-size: 16px;
+  font-weight: 500;
+}
+.hero-icon img{
+  width: 80px;
+}
+.hero-image img{
+        width: 350px;
+
+}
+.hero-content{
+  margin-top: 5%;
+}
+.shoping-now button{
+  gap: 5px;
+  padding: 6px 26px;
+
+}    
+.btn1{
+  background-color: red;
+} 
+.icon-1{
+  display: flex;
+  gap: 36px;
+}
+.btn2{
+  margin-left: 12px  ;
+} 
+.icon-1 img{
+  width: 60px;
+}
+.show img{
+  width:700px ;
+  height: 500px;
+  margin-top: 15%;
+  /* margin-top: 10%; */
+}
+.logo img{
+  width: 80px;
 }

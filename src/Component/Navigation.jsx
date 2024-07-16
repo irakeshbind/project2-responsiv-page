@@ -3,9 +3,9 @@ import React from 'react'
 const Navigation = () => {
   return (
     <div>
-      <nav>
+      <nav className='container'>
         <div className="logo">
-          <img src="" alt="rakesh" />
+          <img src="images/img3.png" alt="rakesh" />
         </div>
         <ul>
           <li><a href=""></a>Menu</li>
